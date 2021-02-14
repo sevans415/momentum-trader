@@ -1,5 +1,5 @@
 const validateShape = bookData => {
-  return bookData && Object.keys(bookData) && bookData.bids;
+  return bookData && Object.keys(bookData) && bookData.asks;
 };
 
 export const process = data => {
